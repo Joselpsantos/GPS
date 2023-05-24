@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity(), LocationListener{
             else{
                 //the user does not allow the use of GPS
                 Toast.makeText(this, "You have not allowed the GPS", Toast.LENGTH_SHORT).show()
-            }
+
             }
         }
 
